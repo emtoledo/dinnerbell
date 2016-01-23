@@ -1,8 +1,42 @@
 /** dinnerbell css **/
 
+html{
+	min-height:100%;
+	height:auto;
+	background:url(../images/dinnerbellbg.png) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;background-size:cover;
+}
+
 body {
-	background:#666;
 	font-family: 'IM Fell DW Pica', serif;
+ 	font-weight: normal;
+ 	margin:0;
+ 	padding:0;
+ 	text-align:center;
+ 	color:#fff;
+ 	padding-top:36px;
+}
+
+a {
+	text-decoration: none;
+	color:#fdbb3c;
+}
+
+a:hover {
+	color:#fff;
+}
+
+header {
+	position: absolute;
+	left: 50%;
+	top:30%;
+	margin-left: -100px;
+}
+
+header img{
+	width:200px;
 }
 
 h1 {
@@ -12,4 +46,15 @@ h1 {
 	color:#cecece;
 	text-transform: uppercase;
 	font-weight: normal;
+}
+
+footer {
+	position: absolute;
+	bottom:10%;
+	left:50%;
+	margin-left:-25px;
+}
+
+footer img{
+	width:50px;
 }
