@@ -1,5 +1,15 @@
 /** dinnerbell css **/
 
 body {
-	background:red;
+	background:#666;
+	font-family: 'IM Fell DW Pica', serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'IM Fell DW Pica', serif;
+	font-size: 20px;
+	color:#cecece;
+	text-transform: uppercase;
+	font-weight: normal;
 }
