@@ -3,10 +3,11 @@
 html{
 	min-height:100%;
 	height:auto;
-	background:url(../images/dinnerbellbg.png) no-repeat center center fixed;
+	background: #000;
+/*	background:url(../images/dinnerbellbg.png) no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
-	-o-background-size:cover;background-size:cover;
+	-o-background-size:cover;background-size:cover;*/
 }
 
 body {
@@ -26,6 +27,10 @@ a {
 
 a:hover {
 	color:#fff;
+}
+
+img {
+	border:none;
 }
 
 header {
