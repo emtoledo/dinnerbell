@@ -1,13 +1,13 @@
 /** dinnerbell css **/
 
-html{
+html {
 	min-height:100%;
 	height:auto;
 	background: #000;
-/*	background:url(../images/dinnerbellbg.png) no-repeat center center fixed;
+	background:url(../images/food.png) no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
-	-o-background-size:cover;background-size:cover;*/
+	-o-background-size:cover;background-size:cover;
 }
 
 body {
@@ -62,4 +62,11 @@ footer {
 
 footer img{
 	width:50px;
+}
+
+
+@media only screen and (max-width: 921px) {
+
+	footer {display:none;}
+
 }
