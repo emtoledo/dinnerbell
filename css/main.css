@@ -58,12 +58,29 @@ footer {
 	bottom:10%;
 	left:50%;
 	margin-left:-25px;
+	width:50px;
+	text-align: center;
 }
 
-footer img{
+footer .location{
+	display:block;
+	clear:both;
+}
+
+footer .location img {
 	width:50px;
 }
 
+
+footer .insta {
+	display:block;
+	clear:both;
+}
+
+footer .insta img {
+	margin-top: 50px;
+	width:30px;
+}
 
 @media only screen and (max-width: 921px) {
 
