@@ -49,6 +49,7 @@ body {
  	padding-top:36px;
 }
 
+
 a {
 	text-decoration: none;
 	color:#bd3c03;
@@ -85,7 +86,6 @@ h2 {
 	text-transform: uppercase;
 	font-weight: normal;
 	letter-spacing: 3pt;
-	line-height: 0;
 }
 h3 {
 	text-align: center;
