@@ -189,7 +189,7 @@ footer .insta img {
 
 .lightbox-target .lbcontent {
 	color:#fff;
-	margin: auto;
+	margin: 30px auto;
 	position: absolute;
 	top: 0;
 	left:0;
@@ -204,6 +204,7 @@ footer .insta img {
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 }
+
 
 /* Styles the close link, adds the slide down transition */
 
@@ -280,5 +281,7 @@ a.lightbox-close:after {
 @media only screen and (max-width: 921px) {
 
 	footer {display:none;}
+	.lightbox-target .lbcontent p {padding:0 35px 15px;}
+	.lightbox-target .lbcontent {overflow: auto}
 
 }
