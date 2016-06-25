@@ -285,4 +285,7 @@ a.lightbox-close:after {
 	.lightbox-target .lbcontent p {padding:0 35px 15px;}
 	.lightbox-target .lbcontent {overflow: auto}
 
+	h2 {font-size: 20pt}
+	h3 {font-size: 15pt}
+
 }
