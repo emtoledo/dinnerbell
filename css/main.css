@@ -279,6 +279,18 @@ a.lightbox-close:after {
     opacity: 0.7;
 }
 
+#video{
+ 	position: relative;
+ 	background: transparent;
+}
+
+.ytplayer-container{
+	 position: absolute;
+	 top: 0;
+	 z-index: 100;
+}
+
+
 @media only screen and (max-width: 921px) {
 
 	footer {display:none;}
