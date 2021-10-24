@@ -297,14 +297,14 @@ ul.promolist {
 	padding:0;
 	margin:0;
 	width:100%;
+	text-align: center;
 }
 
 ul.promolist li {
-	display:inline-block;
-	width:25%; 
+	width:50%; 
 	list-style: none;
 	padding:0;
-	margin:0;	
+	margin:0 auto;	
 }
 
 ul.promolist img {
