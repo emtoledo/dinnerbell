@@ -293,6 +293,25 @@ a.lightbox-close:after {
 }
 
 
+ul.promolist {
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+ul.promolist li {
+	display:inline-block;
+	width:25%; 
+	list-style: none;
+	padding:0;
+	margin:0;	
+}
+
+ul.promolist img {
+	width:100%;
+}
+
+
 @media only screen and (max-width: 921px) {
 
 	footer {display:none;}
@@ -301,5 +320,7 @@ a.lightbox-close:after {
 
 	h2 {font-size: 20pt}
 	h3 {font-size: 15pt}
+
+	ul.promolist li {width:100%;}	
 
 }
